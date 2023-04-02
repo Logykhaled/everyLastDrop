@@ -1,0 +1,484 @@
+/* img{
+    position: absolute;
+} */
+body{
+    background: #d49e99;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+  
+
+}
+img{
+    position: absolute;
+}
+
+
+.scroll_container{
+ min-width: 1px;
+  z-index: 0;
+  height: 75280px;
+  width: 100%;
+  transform-origin: 0px 0px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.sky_container{
+    height: 250px; 
+  
+}
+.sky-inner{
+  width: 1000px;
+  height: 250px;
+  margin: 0 auto;
+  position: relative;
+  min-height: 200px;
+  overflow: hidden;
+ 
+
+}
+
+.floor-inner{
+    width: 100%;
+    height:400px;
+    position: relative;
+    min-height: 200px;
+    overflow: hidden;
+}
+.scene{
+    width: 100%;
+    height: 100%;
+    position: fixed; 
+  
+
+}
+
+
+.scrollMessage{
+position: absolute;
+background: #f1f1ea;
+width: 500px;
+height: 137px;
+left: 25%;
+top:20%;
+}
+p .scrollMessage{
+    padding: 25px;
+    font-size: 18px;
+}
+.bedroom_container{
+    height: 100%;
+}
+
+
+.scroll-down{
+    position: absolute;
+    left: 180px;
+    color: #fff;
+    top: 23px;
+    
+}
+.scrollMessage::before{
+    content: url('../img/ribbon-left.png');
+    width: 27px;
+    height: 120px;
+    position: absolute;
+    left: -27px;
+    top: 0;
+}
+.scrollMessage:after {
+    content: url('../img/ribbon-right.png');
+    width: 28px;
+    height: 120px;
+    position: absolute;
+    right: -27px;
+    top: 0;
+  }
+  img.man {
+    top: 350px;
+    left: 450px;
+    max-width: 126px;
+    max-height: 315px;
+    height: 80%;
+  }
+  .man_container{
+    width: 1000px;
+    padding: 3% 0;
+    position: relative;
+    margin: 0 auto;
+    height: 94%;
+   
+    
+  }
+  .bed-sheet{
+    top:50%;
+  }
+  .bathroom-wall{
+    width: 100%;
+    height: 50%;
+    background-color:#5e9193;
+
+  }
+  .bathroom-floor{
+    width: 100%;
+    height: 60%;
+   background: transparent url('../img/bathroom-tile.png') 0 0;
+  }
+  .inner-wall{
+    width: 1000px;
+    height: 120%;
+    margin: 0 auto;
+    position: relative;
+   
+  }
+  .inner-wall .bathroom-mirror{
+    top: 40px;
+  }
+  .inner-wall .bathroom-shelf{
+    left:50%;
+    top:50%;
+  }
+  .inner-wall .bathroom-window{
+    left:70%;
+    top:20%;
+  }
+  .inner-wall .clock-face{
+
+    top:30%;
+  }
+  .inner-wall .clock-hand{
+    right:0%;
+    top:30%;
+  }
+  .inner-wall .bathroom-light{
+    z-index: 3;
+  }
+  .inner-floor{
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+
+  }
+  .inner-floor .bathroom-chair{
+    right: 30px;
+    bottom: 0;
+    width: 100px;
+    height: 200px
+  }
+  .inner-floor .bathroom-sink{
+   left: 30px;
+   bottom: 0;
+   width: 180px;
+   height: 200px
+  }
+  .shower-curtain{
+    background: url( ../img/shower-curtain.png);
+    left:34%;
+    top:35%;
+    width: 451px;
+    position: absolute;
+    height: 350px;
+    z-index: 8;
+  }
+  .bathroom-mirror-text{
+    top: 50px;
+  }
+  
+.juan-nekked{
+  top:250px;
+  left: 450px;
+  max-width: 126px;
+  max-height: 315px;
+  height: 80%;
+  z-index: 4;
+  
+}
+.juan-sponge{
+  left:47%;
+  top:45%;
+}
+.juan-bubbles{
+  top:250px;
+  left: 450px;
+  z-index: 5;
+}
+
+.dressing-room-container{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient( #74525f 50%,#c1e2ec 50%);
+  position: relative;
+  overflow: hidden;
+}
+.kitchen-container{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient( #5e9193 50%, #d0d5d1 50%);
+  position: relative;
+  overflow: hidden;
+}
+.lamp{
+  right: 10%;
+  bottom:0%;
+}
+.rug{
+  bottom:-22%;
+  left: 40%;
+}
+.picture-frame,.picture-frame-icons{
+  right: 20%;
+  top:10%
+}
+.wardrobe{
+  left:12%;
+  top:10%;
+}
+.wardrobe-rail{
+  top:10%;
+}
+.juan-clothes{
+  top:250px;
+  left: 600px;
+  z-index: 9;
+}
+.kitchen-counters{
+  right: 15%;
+}
+.kitchen-rug{
+  right: 15%;
+  top:85%;
+}
+.bin{
+  left:45%;
+  top:75%;
+}
+.kitchen-shelf{
+ right: 35%;
+ top:10%;
+}
+.knife-rack{
+  right: 55%;
+ top:10%;
+}
+.chalkboard{
+  left:15%
+}
+
+  img.table {
+    top: 480px;
+    width: 320px;
+    z-index: 11;
+
+}
+.juan-nomnom{
+  top:42%;
+  left:5%;
+  z-index: 11;
+}
+
+.road-container{
+  position:relative;
+  width: 100%;
+  height:2500px;
+ 
+}
+.grass {
+  background: #acc666;
+}
+
+.road{
+  height: 2500px;
+  position: absolute;
+  width: 1000px;
+  left: 12%;
+  background-image: url("../img/road.png");
+  background-repeat: repeat-y;
+ 
+}
+.roadworks{
+  left: 52%;
+  top:33%;
+  height: 500px;
+  width: 350px;
+}
+.roadworks-sign{
+  left: 58%;
+  top:70%;
+}
+.roadworks-sign-text{
+  position: absolute;
+  width: 309px;
+  height: 334px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 23px 10px 0 10px;
+  font-size: 30px;
+  line-height: 30px;
+  text-shadow: 0 0 10px #fbcc6c;
+  left: 58%;
+  top:70%;
+  animation-name: shadoweffect;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.traffic-lights{
+  left: 46%;
+  top:73%;
+}
+.traffic-red{
+  left: 46%;
+  top:73%;
+}
+.roadworks-scroll{
+  left: 58%;
+  top:70%;
+ 
+}
+.traffic-orange{
+  left: 46%;
+  top:73%;
+}
+.traffic-green{
+  left: 46%;
+  top:73%;
+}
+.car-container-inner {
+  width: 254px;
+  height: 435px;
+  position: absolute;
+
+}
+.space-container{
+  position:relative;
+  width:1000px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.space-color{
+  background: #354250;
+  background-image: url(../img/stars-blurred.png);
+}
+.spacesuit{
+animation-name:  spaceman-move;
+animation-duration: 2.5s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+}
+img.saturn {
+  top: 600px;
+  right: 40%;
+}
+img.earth {
+  left: 50px;
+}
+img.mercury {
+  top: 550px;
+}
+img.venus {
+  right: 0;
+}
+img.alien {
+  position: absolute;
+}
+.alien-container {
+  position: absolute;
+  top: 70px;
+}
+.alien-message {
+  position: absolute;
+  width: 270px;
+  padding: 22px 0 0 50px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+}
+.planet{
+ animation-name:  planet-move;
+animation-duration: 2.5s;
+animation-delay: 0;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+}
+.planet-delay-1{
+  animation-delay: 1.5s;
+}
+.planet-delay-2 {
+  animation-delay: 2s;
+}
+.living-room-container {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.tv {
+  background: transparent url('../img/tv.png') no-repeat 0 0;
+  width: 540px;
+  height: 399px;
+  position: absolute;
+  top: 68px;
+}
+.film-container {
+  position: absolute;
+  overflow: hidden;
+  width: 500px;
+  height: 281px;
+  top: 40px;
+  left: 20px;
+}
+iframe#vimeo-player {
+  border: none;
+  background: #ccc;
+}
+img.armchair {
+  top: 68px;
+  right: 0;
+}
+img.small-tree {
+  top: 440px;
+  left: 620px;
+}
+.coffee-table {
+  background: transparent url('../img/coffee-table.png') no-repeat 0 0;
+  width: 253px;
+  height: 115px;
+  position: absolute;
+  right: 20px;
+  top: 520px;
+}
+@keyframes shadoweffect{
+  0%{ text-shadow: 0 0 10px #fbcc6c; color: #fff;}
+  100%{ text-shadow: 0 0 20px #fbcc6c; color: #fbcc6c;}
+}
+@keyframes spaceman-move {
+  0% {
+    margin-top: 10px;
+  }
+  50% {
+    margin-top: -15px;
+  }
+  100% {
+    margin-top: 6px;
+  }
+}
+
+@keyframes planet-move {
+  0% {
+    margin-top: 10px;
+  }
+  50% {
+    margin-top: -15px;
+  }
+  100% {
+    margin-top: 6px;
+  }
+}
+
+
